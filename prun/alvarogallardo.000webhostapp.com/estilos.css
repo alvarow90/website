@@ -1,0 +1,58 @@
+body{
+
+background: black;
+color: white;
+font- font-family: Arial, Helvetica ;
+}
+
+
+h2{
+    color: white;
+    text-align: center;
+    }
+
+
+h1{
+color: white;
+text-align: center;
+}
+
+div{
+color:white;
+text-align: justify;}
+
+p{
+color: white;
+font-size:150%;
+font-weight:normal;
+text-align: justify;
+}
+
+parrafo{
+    color:white;
+    text-align: justify;
+    font-size:150%;
+    font-weight:normal;
+    text-align: justify;
+}
+
+ks{
+color: red;
+text-align:center;
+font-size: 200%;
+font-weight: normal;
+}
+
+
+a:link, a:visited {
+    background-color:blue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: lightseagreen;
+  }
