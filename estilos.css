@@ -1,9 +1,4 @@
-body{
-    background: white ;
-    font-family: Arial;
 
-
-}
 header{
     background:red;
      height: 100px;
@@ -24,7 +19,7 @@ li{
 }
 body{
 
-    background: white;
+    background: black;
     color: white;
     font- font-family: Arial, Helvetica ;
     }
