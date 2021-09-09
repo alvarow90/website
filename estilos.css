@@ -87,7 +87,6 @@ body{
         float: left;
       }
       img.mov {
-        position: relative;
         top: 2em;
         float: right;
       }
