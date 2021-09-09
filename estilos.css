@@ -84,7 +84,8 @@ body{
       img.desplazada {
         position: relative;
         top: 2em;
-        float: left;
+        border-radius:150px;
+          float: left;
       }
       img.mov {
           position:relative;
