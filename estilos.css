@@ -88,6 +88,8 @@ body{
       }
       img.mov {
           position:relative;
+     
+          border-radius:150px;
           top: 2em;
         float: right;
       }
