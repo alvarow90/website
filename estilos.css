@@ -1,0 +1,103 @@
+body{
+    background: white ;
+    font-family: Arial;
+
+
+}
+header{
+    background:red;
+     height: 100px;
+     color:green;
+}
+h1{
+
+    height: 100px;
+    text-align: center;
+    font-size: 6em;
+    color:white;
+    background: teal;
+}
+li{
+
+    color:white;
+
+}
+body{
+
+    background: white;
+    color: white;
+    font- font-family: Arial, Helvetica ;
+    }
+    
+    
+    h2{
+        color: white;
+        text-align: center;
+        }
+    
+    
+    h1{
+    color: white;
+    text-align: center;
+    }
+    
+    div{
+    color:white;
+    text-align: justify;}
+    
+    p{
+    color: white;
+    font-size:150%;
+    font-weight:normal;
+    text-align: justify;
+    }
+    
+    parrafo{
+        color:white;
+        text-align: justify;
+        font-size:150%;
+        font-weight:normal;
+        text-align: justify;
+    }
+    
+    ks{
+    color: red;
+    text-align:center;
+    font-size: 200%;
+    font-weight: normal;
+    }
+    
+    
+    a:link, a:visited {
+        background-color:blue;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: lightseagreen;
+      }
+     
+      img.desplazada {
+        position: relative;
+        top: 2em;
+        border-radius:150px;
+          float: left;
+      }
+      img.mov {
+          position:relative;
+     
+          border-radius:150px;
+          top: 2em;
+        float: right;
+      }
+
+  center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
