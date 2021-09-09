@@ -80,9 +80,7 @@ body{
       a:hover, a:active {
         background-color: lightseagreen;
       }
-      img {
-        border-radius: 50%;
-      }    
+     
       img.desplazada {
         position: relative;
         top: 2em;
