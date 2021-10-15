@@ -1,0 +1,4 @@
+(3,LavarTrsates).
+(4,LavarTrsates).
+(35,LavarTrsates).
+(33,LavarTrsates).
