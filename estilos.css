@@ -1,4 +1,9 @@
 
+
+
+
+
+
 header{
     background:red;
      height: 100px;
@@ -96,3 +101,13 @@ body{
   margin-right: auto;
   width: 50%;
 }
+
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+
+
+
+
