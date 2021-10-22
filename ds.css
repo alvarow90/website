@@ -45,7 +45,12 @@ body{
     margin-top: 20px;
 }
 
-.foto1 { padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; }
+.foto1{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: left; width: 250px; 
+}
 
 
 
