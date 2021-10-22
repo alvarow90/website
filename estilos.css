@@ -105,8 +105,10 @@ body{
 
 .imgRedonda {
     width:300px;
+    display: block;
     height:300px;
     border-radius:150px;
+    margin-left: 30%
 }
 
 
