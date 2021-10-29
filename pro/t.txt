@@ -1,0 +1,91 @@
+[
+    {
+        "nombre": "Lavar Trastes",
+        "puntuacion": 1
+    },
+    {
+        "nombre": "Pasear al perro",
+        "puntuacion": 5
+    },
+    {
+        "nombre": "Preparar comida",
+        "puntuacion": 2
+    },
+    {
+        "nombre": "Tarea de matematicas",
+        "puntuacion": 3
+    },
+    {
+        "nombre": "Hacer cama",
+        "puntuacion": 8
+    },
+    {
+        "nombre": "Limpiar escritorio",
+        "puntuacion": 9
+    },
+    {
+        "nombre": "Tarea de quimica",
+        "puntuacion": 6
+    },
+    {
+        "nombre": "Tarea de grafos",
+        "puntuacion": 7
+    },
+    {  
+	 "nombre": "Hacer Ejercicio",
+        "puntuacion": 3
+    },
+    {  
+	 "nombre": "Leer libro",
+        "puntuacion": 4
+    },
+    {  
+	 "nombre": "Reparar silla",
+        "puntuacion": 1
+    },
+    {  
+	 "nombre": "Jugar videojuegos",
+        "puntuacion": 6
+    },
+    {  
+	 "nombre": "Preparar cafe",
+        "puntuacion": 3
+    },
+    {  
+	 "nombre": "Tarea de Diseño",
+        "puntuacion": 7
+    },
+    {  
+	 "nombre": "Programar",
+        "puntuacion": 8
+    },
+    {  
+	 "nombre": "Escribir pendientes",
+        "puntuacion": 5
+    },
+    {  
+	 "nombre": "Tarea de Fisica",
+        "puntuacion": 6
+    },
+    {  
+	 "nombre": "Comprar libreta",
+        "puntuacion": 2
+    }
+     ,
+    {  
+	 "nombre": "Ver television",
+        "puntuacion": 2
+    },
+    {  
+	 "nombre": "Tarea de Calculo",
+        "puntuacion": 10
+    },
+    {  
+	 "nombre": "Tarea de IO",
+        "puntuacion": 9
+    },
+    {  
+	 "nombre": "Practicar ingles",
+        "puntuacion": 7
+    }
+]
