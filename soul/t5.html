@@ -1,60 +1,77 @@
-<nav>
-  <ul>
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Acerca de</a></li>
-    <li>
-      <a href="#">Productos</a>
-      <ul>
-        <li><a href="#">Producto 1</a></li>
-        <li><a href="#">Producto 2</a></li>
-        <li><a href="#">Producto 3</a></li>
-      </ul>
-    </li>
-    <li><a href="#">Contacto</a></li>
-  </ul>
-</nav>
-nav {
-  background-image: url('ruta/de/la/imagen.jpg');
-  background-size: cover;
-  padding: 10px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página web</title>
+	<style>
+		body {
+			background-image: url('imagen_de_fondo.jpg');
+		}
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+		}
 
-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
 
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
+		nav li {
+			display: inline-block;
+			position: relative;
+			margin-right: 20px;
+		}
 
-nav ul ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+			display: block;
+		}
 
-nav ul li:hover > ul {
-  display:inherit;
-}
+		nav ul ul {
+			display: none;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			background-color: #333;
+			padding: 10px;
+		}
 
-nav ul ul li {
-  width:200px;
-  float:none;
-  display:list-item;
-  position: relative;
-}
+		nav ul ul li {
+			display: block;
+			margin: 5px 0;
+		}
 
-nav ul ul ul li {
-  position: relative;
-  top:-60px;
-  left:200px;
-}
-
+		nav li:hover > ul {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">INICIO</a></li>
+				<li><a href="#">Fundamentos</a>
+					<ul>
+						<li><a href="#">MARCO TEÓRICO</a></li>
+						<li><a href="#">CONTEXTO DEL PROYECTO</a></li>
+						<li><a href="#">METODOLOGÍA</a></li>
+						<li><a href="#">PROTOTIPO</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Implementación</a></li>
+				<li><a href="#">Acerca de</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Bienvenidos a mi página web</h1>
+		<p>Aquí encontrarás información sobre el proyecto que estoy desarrollando.</p>
+	</main>
+</body>
+</html>
