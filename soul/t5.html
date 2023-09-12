@@ -75,3 +75,54 @@
 	</main>
 </body>
 </html>
+
+
+
+
+
+
+
+</header>
+	<main>
+		<h1>Bienvenidos a mi página web</h1>
+		<p>Aquí encontrarás información sobre el proyecto que estoy desarrollando.</p>
+		
+		<!-- Agregar un input y un botón -->
+		<label for="userInput">Ingresa algo:</label>
+		<input type="text" id="userInput">
+		<button id="submitButton">Enviar</button>
+		<p id="output"></p>
+
+		<script>
+			// Tu código JavaScript aquí
+			const submitButton = document.getElementById("submitButton");
+
+			submitButton.addEventListener("click", () => {
+				const userInput = document.getElementById("userInput").value;
+				document.getElementById("output").innerText = `Has ingresado: ${userInput}`;
+			});
+		</script>
+	</main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
