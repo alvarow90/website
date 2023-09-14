@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora Científica</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="marco-madera">
+    <input id="pantalla" type="text" readonly />
+    <div id="historial"></div>
+    <div class="botones">
+      <!-- Primera fila de botones -->
+      <div class="fila-botones">
+        <button onclick="limpiarPantalla()">C</button>
+        <button onclick="agregarOperador('+')">+</button>
+        <button onclick="agregarOperador('-')">-</button>
+        <button onclick="agregarOperador('*')">*</button>
+        <button onclick="agregarOperador('/')">/</button>
+        <button onclick="calcularRaizCuadrada()">√</button>
+        <button onclick="calcularCuadrado()">x²</button>
+        <button onclick="mostrarUltimaOperacion()">ult</button>
+        <button onclick="borrarUltimoCaracter()">←</button>
+
+      </div>
+      
+      <!-- Segunda fila de botones -->
+      <div class="fila-botones">
+        <button onclick="agregarNumero(0)">0</button>
+        <button onclick="agregarNumero(1)">1</button>
+        <button onclick="agregarNumero(2)">2</button>
+        <button onclick="agregarNumero(3)">3</button>
+        <button onclick="agregarNumero(4)">4</button>
+        <button onclick="agregarNumero(5)">5</button>
+        <button onclick="agregarNumero(6)">6</button>
+        <button onclick="agregarNumero(7)">7</button>
+        <button onclick="agregarNumero(8)">8</button>
+        <button onclick="agregarNumero(9)">9</button>
+        
+        
+        <button onclick="agregarPunto()">.</button>
+        <button onclick="calcular()">=</button>
+       
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
